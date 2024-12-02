@@ -1,0 +1,47 @@
+/* App.js */
+.centered-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;    
+    height: 100vh;         
+    background-color: #b6cdd8;
+  }
+  
+
+/* Style for the form and input fields */
+.centered-container input {
+    width: 100%;             
+    max-width: 400px;        
+    padding: 10px;        
+    margin: 10px 0;          
+    border-radius: 5px;      
+    border: 1px solid #ccc; 
+    font-size: 16px;         
+  }
+  
+  /* Style for the login button */
+  .centered-container button {
+    width: 100%;             
+    padding: 12px;          
+    border-radius: 5px;  
+    background-color: #0d62bd;
+    color: white;        
+    font-size: 16px;      
+  }
+
+  
+  .centered-container p {
+    font-size: 16px;         /* Smaller font size for the text */
+    margin-top: 15px;        /* Add some space above the paragraph */
+    text-align: center;      /* Center the text */
+  }
+  
+  .centered-container p button {
+    background: none;        
+    border: none;          
+    color: #007BFF;       
+    cursor: pointer;       
+    text-decoration: underline; 
+  }
+  
